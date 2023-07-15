@@ -4,6 +4,7 @@
 }
 body{
     width: 100vw;
+    font-family: 'Inter', sans-serif;
     
 }
 .dark-mode{
@@ -30,6 +31,7 @@ body{
     height: 90vh;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 #product{
     /* border: 1px solid red; */
@@ -60,6 +62,7 @@ body{
     height: 25px;
     font-weight: bolder;
     border: none;
+    margin-left: -30px;
     
 }
 .strike {
@@ -95,10 +98,21 @@ body{
     #item-Container{
         flex-direction: column;
         height: 160vh;
+        margin-bottom: 50px;
     }
     #product{
        width:90vw;
        margin: auto;
        margin-bottom: 25px;
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+    .two{
+      font-size: 1rem;
+    }
+    .Mybutton{
+      font-size: 0.7rem;
+      height: 50px;
     }
 }
